@@ -1,3 +1,10 @@
+<?php
+    if(count($_COOKIE) > 0) {
+        header('location: myHoroscope.php');
+        die;
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
