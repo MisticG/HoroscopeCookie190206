@@ -11,7 +11,7 @@
     <form action="myHoroscope.php" method="post">
         <h4>Förnamn: <input type="text" name="firstName"> </h4>
         <h4>Efternamn: <input type="text" name="lastName"></h4>
-        <h4>Personnummer: <input type="text" name="birthDate"></h4>
+        <h4>Personnummer: <input type="text" name="birthDate" value="ÅÅMMDD"></h4>
         <input type="submit" value="Spara i Cookie">
     </form>
 
