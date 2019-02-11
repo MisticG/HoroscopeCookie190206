@@ -7,13 +7,16 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="index.php" method="post">
-        <h4>Förnamn: </h4><input type="text" name="firstName">
-        <h4>Efternamn: </h4> <input type="text" name="lastName">
-        <h4>Personnummer: </h4> <input type="text" name="firstName">
-        <br>
-        <input type="submit" value="Klicka här!">
+
+    <form action="myHoroscope.php" method="post">
+        <h4>Förnamn: <input type="text" name="firstName"> </h4>
+        <h4>Efternamn: <input type="text" name="lastName"></h4>
+        <h4>Personnummer: <input type="text" name="birthDate"></h4>
+        <input type="submit" value="Spara i Cookie">
     </form>
+
+
+
     
 </body>
 </html>
